@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    outline: 50px solid green;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #922172;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+/* img, video {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+.note-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.note {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    /* transition: transform 0.3s ease; */
+}
+
+/* .note:hover {
+    transform: rotate(-1deg) scale(1.01);
+} */
+
+.note-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.note-header i {
+    font-size: 16px;
+}
+
+.note-header .tag {
+    background-color: #000;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: auto;
+}
+
+.note-body {
+    margin: 0;
+}
+
+.electricity {
+    border: 2px solid rgb(90, 90, 211);
+    background-color: #e6f2ff;
+}
+
+.leadership {
+    border: 2px solid rgb(117, 174, 117);
+    background-color: #e6ffe6;
+}
+
+.writing {
+    border: 2px solid rgb(216, 178, 105);
+    background-color: #fff2e6;
+}
+
+/* .true-hero-img {
+    width: 300px;
+    height: 300px;
+} */
+
+.tile-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tile {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* border: 2px solid rgb(90, 211, 146); */
+}
+
+/* .tile:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} */
+
+.tile h2 {
+    margin-top: 0;
+}
+
+.tile p {
+    color: #666;
+}

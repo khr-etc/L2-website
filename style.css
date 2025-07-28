@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     background-color: #e3eff6;
     margin: 0;
     padding: 20px;
@@ -86,19 +86,19 @@ body {
 }
 
 .tile {
-    background-color: #ffffff;
+    background-color: #(232, 249, 240) ;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 300px;
     transition: transform 0.3s, box-shadow 0.3s;
-    /* border: 2px solid rgb(90, 211, 146); */
+    border: 2px solid rgb(90, 211, 146);
 }
 
-/* .tile:hover {
+.tile:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-} */
+}
 
 .tile h2 {
     margin-top: 0;

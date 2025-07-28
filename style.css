@@ -74,10 +74,10 @@ body {
     background-color: #fff2e6;
 }
 
-/* .true-hero-img {
+.true-hero-img {
     width: 300px;
     height: 300px;
-} */
+}
 
 .tile-container {
     display: flex;

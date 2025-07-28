@@ -10,10 +10,10 @@ body {
     align-items: center;
 }
 
-/* img, video {
+img, video {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-} */
+}
 
 .note-container {
     display: flex;
@@ -28,12 +28,12 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 15px;
-    /* transition: transform 0.3s ease; */
+    transition: transform 0.3s ease;
 }
 
-/* .note:hover {
+.note:hover {
     transform: rotate(-1deg) scale(1.01);
-} */
+}
 
 .note-header {
     display: flex;
